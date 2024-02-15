@@ -56,4 +56,8 @@ DAD-TAD/
 ### Epic-Kitchen
 + SlowFast feature: from ActionFormer repository ([epic_kitchen](https://github.com/happyharrycn/actionformer_release/tree/main)).
 -->
+
+## Training and Evaluation
++ We have provided a script list that allows you to replicate our results with just a single click. Further details can be found in `./tools/run_all_exps.sh`.
+
 ## Model
