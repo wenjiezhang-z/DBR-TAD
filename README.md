@@ -60,4 +60,5 @@ DAD-TAD/
 ## Training and Evaluation
 + We have provided a script list that allows you to replicate our results with just a single click. Further details can be found in `./tools/run_all_exps.sh`.
 
-## Model
+## Trained Models
+
