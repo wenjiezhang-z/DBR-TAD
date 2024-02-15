@@ -61,4 +61,4 @@ DAD-TAD/
 + We have provided a script list that allows you to replicate our results with just a single click. Further details can be found in `./tools/run_all_exps.sh`.
 
 ## Trained Models
-
+We provide pre-trained models for each dataset, which you can download from XXX.
