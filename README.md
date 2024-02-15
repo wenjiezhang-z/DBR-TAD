@@ -21,7 +21,7 @@ This repository contains the code for Diffusion Action Distiller for Temporal Ac
 | Epic-Kitchen | SlowFast | [epic_kitchen](https://github.com/happyharrycn/actionformer_release/tree/main)|
 
 **Unpack Features and Annotations**
-+ Unpack the file under ./data
++ Unpack the file under `./data`
 + The folder structure should look like
 ```
 DAD-TAD/
