@@ -10,6 +10,16 @@ This repository contains the code for Diffusion Action Distiller for Temporal Ac
 + Install NMS: `cd ./libs/utils; python setup.py install --user; cd ../..`
 
 ## Data
+
+| Dataset  | Feature Encoder| Link |
+|----------|----------|----------|
+| THUMOS14 | I3D | [thumos_i3d](https://github.com/happyharrycn/actionformer_release/tree/main)|
+| THUMOS14 | VideoMAE | [thumos_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)|
+| ActivityNet | I3D | [anet_i3d](https://github.com/sauradip/tags)|
+| ActivityNet | TSP | [anet_tsp](https://github.com/happyharrycn/actionformer_release/tree/main)|
+| ActivityNet | VideoMAE | [anet_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)|
+| Epic-Kitchen | SlowFast | [epic_kitchen](https://github.com/happyharrycn/actionformer_release/tree/main)|
+
 ### THUMOS14
 + I3D feature: from ActionFormer repository ([thumos_i3d](https://github.com/happyharrycn/actionformer_release/tree/main)).
 + VideoMAE feature: from InternVideo repository ([thumos_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)).
