@@ -20,6 +20,24 @@ This repository contains the code for Diffusion Action Distiller for Temporal Ac
 | ActivityNet | VideoMAE | [anet_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)|
 | Epic-Kitchen | SlowFast | [epic_kitchen](https://github.com/happyharrycn/actionformer_release/tree/main)|
 
+DAD-TAD/
+  ├── data
+  │   ├── anet_1.3
+  │   │   ├── annotations
+  │   │   ├── i3d_features
+  │   │   ├── tsp_features
+  │   │   └── anet_mae_hugek700
+  │   ├── epic_kitchens
+  │   │   ├── annotations
+  │   │   ├── features
+  │   └── thumos
+  │       ├── annotations
+  │       ├── i3d_features
+  │       ├── th14_mae_g_16_4
+  ├── libs
+  ├── tools
+  └── ...
+
 <!--
 ### THUMOS14
 + I3D feature: from ActionFormer repository ([thumos_i3d](https://github.com/happyharrycn/actionformer_release/tree/main)).
