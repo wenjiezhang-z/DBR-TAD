@@ -20,7 +20,8 @@ This repository contains the code for Diffusion Action Distiller for Temporal Ac
 | ActivityNet | VideoMAE | [anet_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)|
 | Epic-Kitchen | SlowFast | [epic_kitchen](https://github.com/happyharrycn/actionformer_release/tree/main)|
 
-- DAD-TAD/
+```
+DAD-TAD/
   ├── data
   │   ├── anet_1.3
   │   │   ├── annotations
@@ -37,6 +38,7 @@ This repository contains the code for Diffusion Action Distiller for Temporal Ac
   ├── libs
   ├── tools
   └── ...
+```
 
 <!--
 ### THUMOS14
