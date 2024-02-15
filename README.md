@@ -6,8 +6,9 @@ This repository contains the code for Diffusion Action Distiller for Temporal Ac
 
 ## Installation
 + Recommended Environment: python 3.8.8, Cuda11.6, PyTorch 1.12.1(The PyTorch version should be at least >= 1.11.)
-+ Install dependencies: 'pip install  -r requirements.txt'
-+ Install NMS: 'cd ./libs/utils ; python setup.py install --user ; cd ../..'
++ Install dependencies: `pip install  -r requirements.txt`
++ Install NMS: `cd ./libs/utils ; python setup.py install --user ; cd ../..`
+
 ## Data
 
 ## Model
