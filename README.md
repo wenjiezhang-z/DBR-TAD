@@ -10,7 +10,7 @@ This repository contains the code for Diffusion Action Distiller for Temporal Ac
 + Install NMS: `cd ./libs/utils; python setup.py install --user; cd ../..`
 
 ## Data
-
+**Download Features and Annotations**
 | Dataset  | Feature Encoder| Link |
 |:-----------:|:-----------:|:------------:|
 | THUMOS14 | I3D | [thumos_i3d](https://github.com/happyharrycn/actionformer_release/tree/main)|
@@ -20,7 +20,9 @@ This repository contains the code for Diffusion Action Distiller for Temporal Ac
 | ActivityNet | VideoMAE | [anet_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)|
 | Epic-Kitchen | SlowFast | [epic_kitchen](https://github.com/happyharrycn/actionformer_release/tree/main)|
 
-### The folder structure should look like
+** Unpack Features and Annotations **
++ Unpack the file under ./data
++ The folder structure should look like
 ```
 DAD-TAD/
   ├── data
