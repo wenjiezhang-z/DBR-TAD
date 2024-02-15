@@ -11,15 +11,15 @@ This repository contains the code for Diffusion Action Distiller for Temporal Ac
 
 ## Data
 ### THUMOS14
-+ I3D feature: from ActionFormer repository [thumos_i3d](https://github.com/happyharrycn/actionformer_release/tree/main)
-+ VideoMAE feature: from InternVideo repository [thumos_videomae]([https://github.com/happyharrycn/actionformer_release/tree/main](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)
++ I3D feature: from ActionFormer repository ([thumos_i3d](https://github.com/happyharrycn/actionformer_release/tree/main)).
++ VideoMAE feature: from InternVideo repository ([thumos_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)).
   
 ### ActivityNet
-+ I3D feature: from TAGS repository [anet_i3d](https://github.com/sauradip/tags)
-+ TSP feature: from ActionFormer repository [anet_tsp](https://github.com/happyharrycn/actionformer_release/tree/main)
-+ VideoMAE feature: from InternVideo repository [anet_videomae]([https://github.com/happyharrycn/actionformer_release/tree/main](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)
++ I3D feature: from TAGS repository ([anet_i3d](https://github.com/sauradip/tags)).
++ TSP feature: from ActionFormer repository ([anet_tsp](https://github.com/happyharrycn/actionformer_release/tree/main)).
++ VideoMAE feature: from InternVideo repository ([anet_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)).
 
 ### Epic-Kitchen
-+ SlowFast feature: from ActionFormer repository [epic_kitchen](https://github.com/happyharrycn/actionformer_release/tree/main)
++ SlowFast feature: from ActionFormer repository ([epic_kitchen](https://github.com/happyharrycn/actionformer_release/tree/main)).
 
 ## Model
