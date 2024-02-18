@@ -1,6 +1,6 @@
 # DAD-TAD: Diffusion Action Distiller for Temporal Action Detection
 
-[Project page](https://vsislab.github.io/DAD-TAD/)|
+[[Project page](https://vsislab.github.io/DAD-TAD/)]
 
 ## Overview
 
