@@ -63,6 +63,7 @@ DAD-TAD/
 
 ## Training and Evaluation
 + We have provided a script list that allows you to replicate our results with just a single click. Further details can be found in `./tools/run_all_exps.sh`.
++ [Optional] Monitor the training using TensorBoard `tensorboard --logdir=./ckpt/thumos_i3d_reproduce/logs`.
 
 ## Trained Models
 We provide pre-trained models for each dataset, which you can download from XXX.
