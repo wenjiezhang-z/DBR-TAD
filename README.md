@@ -1,4 +1,4 @@
-# DB<sup>2</sup>R: Diffusion-Based Boundary Refinement for Temporal Action Detection
+# DBR-TAD: Diffusion-Based Boundary Refinement for Temporal Action Detection
 
 We provide the IAL model code as supplementary material and publish the DiffBR model code after acceptance of the paper.
 
