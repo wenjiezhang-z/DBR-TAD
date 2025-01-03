@@ -1,5 +1,5 @@
 # DBR-TAD: Diffusion-Based Boundary Refinement for Temporal Action Detection
-
+This repository contains the code for DBR-TAD: Diffusion-Based Boundary Refinement for Temporal Action Detection
 ## Overview
 
 ![Overview](./assets/Overview.png)
