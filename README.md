@@ -13,12 +13,15 @@ This repository contains the code for DBR-TAD: Diffusion-Based Boundary Refineme
 **Download Features and Annotations**
 | Dataset  | Feature Encoder| Link |
 |:-----------:|:-----------:|:------------:|
-| THUMOS14 | I3D | [thumos_i3d](https://github.com/happyharrycn/actionformer_release/tree/main)|
-| THUMOS14 | VideoMAE | [thumos_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)|
-| ActivityNet | I3D | [anet_i3d](https://github.com/sauradip/tags)|
-| ActivityNet | TSP | [anet_tsp](https://github.com/happyharrycn/actionformer_release/tree/main)|
-| ActivityNet | VideoMAE | [anet_videomae](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)|
-| Epic-Kitchen | SlowFast | [epic_kitchen](https://github.com/happyharrycn/actionformer_release/tree/main)|
+| THUMOS14 | I3D | [Link](https://github.com/happyharrycn/actionformer_release/tree/main)|
+| THUMOS14 | VideoMAEv2 | [Link](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)|
+| ActivityNet | I3D | [Link](https://github.com/sauradip/tags)|
+| ActivityNet | TSP | [Link](https://github.com/happyharrycn/actionformer_release/tree/main)|
+| ActivityNet | VideoMAEv2 | [Link](https://github.com/OpenGVLab/InternVideo/tree/main/Downstream/Temporal-Action-Localization)|
+| Epic-Kitchen | SlowFast | [Link](https://github.com/happyharrycn/actionformer_release/tree/main)|
+| MultiTHUMOS | I3D | [Link](https://github.com/dingfengshi/tridetplus)|
+| MultiTHUMOS | VideoMAEv2 | [Link](https://github.com/dingfengshi/tridetplus)|
+| Charades | I3D | [Link](https://github.com/dingfengshi/tridetplus)|
 
 **Unpack Features and Annotations**
 + Unpack the file under `./data`
