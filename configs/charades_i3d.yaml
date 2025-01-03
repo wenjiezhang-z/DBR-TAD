@@ -1,0 +1,69 @@
+dataset_name: charades
+train_split: [ 'train' ]
+val_split: [ 'test' ]
+devices: ['cuda:3']
+dataset: {
+  json_file: ./data/Charades_i3d/charades.json,
+  feat_folder: ./data/Charades_i3d/Charades_v1_rgb_i3d,
+  file_prefix: ~,
+  file_ext: -rgb.npz,
+  num_classes: 157,
+  input_dim: 1024,
+  rgb_only: True,
+  feat_stride: 4,
+  num_frames: 16,
+  # serve as data augmentation
+  trunc_thresh: 0.5,
+  crop_ratio: [ 0.9, 1.0 ],
+  max_seq_len: 2304,
+  encoder_type: i3d
+}
+model: {
+  backbone_type: 'ConvFormer',
+  fpn_type: identity,
+  # multi_label: True,
+  max_buffer_len_factor: 6.0,
+  backbone_arch: [ 2, 2, 5 ],
+  regression_range: [ [ 0, 4 ], [ 4, 8 ], [ 8, 16 ], [ 16, 32 ], [ 32, 64 ], [ 64, 10000 ] ],
+  num_bins: 16,
+  iou_weight_power: 0.2,
+  use_trident_head: True,
+  input_noise: 0.0005,
+  MaxPool_ks: [1,5,5,5,5,5],
+  DWConv_ks: [1,3,3,3,3,3],
+  LFE_lambda: 0.5,
+  feat_win_size: 9,
+  # block_mlp_dim: 2048,
+  block_mlp_dim: 768,
+  multi_label: True,
+  two_short_cut: True,
+}
+opt: {
+  learning_rate: 0.0001,
+  warmup_epochs: 5,
+  # epochs: 4,
+  epochs: 10,
+  weight_decay: 0.025,
+}
+loader: {
+  batch_size: 2,
+}
+train_cfg: {
+  start_save_epoch: 5,
+  init_loss_norm: 100,
+  clip_grad_l2norm: 1.0,
+  cls_prior_prob: 0.01,
+  center_sample: radius,
+  center_sample_radius: 1.5,
+}
+# the inference on THUMOS is quite different from EPIC-kitchens
+# a major performance gain is achieved by fusing external classification scores
+# doing so will require disable multiclass_nms and enable score fusion
+test_cfg: {
+  voting_thresh: 0.7,
+  pre_nms_topk: 8000,
+  max_seg_num: 8000,
+  min_score: 0.001,
+  multiclass_nms: True,
+}
+output_folder: ./ckpt/
