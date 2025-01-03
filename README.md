@@ -2,7 +2,7 @@
 This repository contains the code for DBR-TAD: Diffusion-Based Boundary Refinement for Temporal Action Detection [paper](https://vsislab.github.io/DBR-TAD/).
 ## Overview
 
-![Overview](./assets/Overview.png)
+![Overview](./assets/DBR-TAD.png)
 
 ## Installation
 + Recommended Environment: python 3.8.8, Cuda11.6, PyTorch 1.12.1(The PyTorch version should be at least >= 1.11.)
