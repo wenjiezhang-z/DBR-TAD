@@ -37,9 +37,10 @@ DAD-TAD/
   │   │   ├── annotations
   │   │   ├── features
   │   └── thumos
-  │       ├── annotations
-  │       ├── i3d_features
-  │       ├── th14_mae_g_16_4
+  │   │   ├── annotations
+  │   │   ├── i3d_features
+  │   │   ├── th14_mae_g_16_4
+  │   └── ... 
   ├── libs
   ├── tools
   └── ...
