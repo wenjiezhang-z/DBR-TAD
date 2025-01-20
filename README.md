@@ -50,8 +50,6 @@ DAD-TAD/
 ## Training and Evaluation
 + We have provided a script list that allows you to replicate our results with just a single click. Further details can be found in `./tools/run_all_exps.sh`.
 
-+ Our experiments were conducted exclusively on a single NVIDIA GeForce GTX 1080 Ti. It is noted that variations in the graphics card model may lead to slight discrepancies in replicating the results.
-
 + [Optional] Monitor the training using TensorBoard. Example:
 ```
 tensorboard --logdir=./ckpt/thumos_i3d_final/logs
